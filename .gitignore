@@ -1,0 +1,26 @@
+# Unhackable - Git Ignore
+# Logs
+*.log
+*.tmp
+
+# Audit reports (contain system info)
+*.json
+!example-report.json
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Secrets
+*.key
+*.pem
+*.pfx
+.env
